@@ -4,4 +4,17 @@
   <%= Time.now.utc.round(10).iso8601(2) %>
 </p>
 
+<p>
+  If you throttle your network to “Fast 3G”, when clicking the “Increment ping issue click counter”, you can see the issue happening if the counter does not update.
+</p>
+
+<p id="ping-issue-click-counter">
+  <%= @ping_issue_click_counter %>
+</p>
+
 <button data-reflex="click">Update Time</button>
+<button data-reflex="click->PingIssueReflex#increment_ping_issue_click_counter" data-counter="<%= @ping_issue_click_counter %>">Increment ping issue click counter</button>
+
+<p id="moby-dick">
+  <%= @full_text_of_moby_dick %>
+</p>
