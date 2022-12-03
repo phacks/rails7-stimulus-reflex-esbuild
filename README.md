@@ -1,6 +1,6 @@
 # Rails 7 with Stimulus Reflex and esbuild
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/marcoroth/rails7-stimulus-reflex-esbuild)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/phacks/stimulus-reflex-action-cable-disconnect-repro)
 
 ## Technology stack
 
@@ -13,7 +13,7 @@
 
 ## Up and running in three steps
 
-1. `git clone git@github.com:marcoroth/rails7-stimulus-reflex-esbuild.git`
+1. `git clone git@github.com:phacks/stimulus-reflex-action-cable-disconnect-repro.git`
 2. `bin/setup`
 3. `bin/dev`
 
